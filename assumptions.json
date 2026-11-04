@@ -1,0 +1,20 @@
+{
+  "mission_minutes":720, "step_minutes":1,
+  "solar_w":8000, "battery_capacity_wh":10000, "initial_soc":80,
+  "charge_efficiency":0.95, "discharge_efficiency":0.95, "battery_power_limit_w":6000,
+  "reserve_soc":30, "forecast_minutes":60,
+  "initial_storage_wh":1000, "storage_capacity_wh":5000, "storage_loss_per_hour":0.01,
+  "heat_efficiency":0.85, "heat_transfer_limit_w":2200, "storage_discharge_limit_w":1800,
+  "heater_limit_w":3000, "solar_damage_factor":0.65,
+  "habitat":{"initial_c":21,"target_c":21,"safe_min_c":18,"safe_max_c":26,"capacity_wh_c":700,"loss_w":1000},
+  "battery":{"initial_c":15,"target_c":15,"safe_min_c":5,"safe_max_c":30,"capacity_wh_c":250,"loss_w":400},
+  "cold_loss_multiplier":1.4,
+  "loads":[
+    {"id":"life","name":"Life support","power_w":1400,"priority":"Critical","heat_w":0},
+    {"id":"comms","name":"Communications","power_w":500,"priority":"Critical","heat_w":0},
+    {"id":"computer","name":"Main computer","power_w":900,"priority":"Essential","heat_w":800},
+    {"id":"science","name":"Science payload","power_w":1200,"priority":"Flexible","heat_w":1000,"duration":150,"release":60,"deadline":600},
+    {"id":"rover","name":"Rover charger","power_w":1800,"priority":"Flexible","heat_w":0,"duration":180,"release":90,"deadline":690}
+  ],
+  "events":[{"time":180,"type":"solar_damage"},{"time":240,"type":"eclipse","duration":90},{"time":420,"type":"thermal_route_failure"}]
+}

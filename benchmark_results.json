@@ -1,0 +1,44 @@
+{
+  "baseline": {
+    "critical_minutes": 720,
+    "minimum_soc": 10.105263157894814,
+    "electric_heater_wh": 17640.00000000015,
+    "recovered_heat_wh": 0.0,
+    "rejected_heat_wh": 12100.000000000113,
+    "electrical_heating_avoided_wh": 0.0,
+    "thermal_safety_violation_minutes": 0,
+    "max_electrical_residual_wh": 6.110667527536862e-13,
+    "max_thermal_residual_wh": 5.639932965095795e-14,
+    "critical_availability": 100.0,
+    "flexible_tasks_completed": 2,
+    "task_minutes_completed": 330
+  },
+  "lunagrid": {
+    "critical_minutes": 720,
+    "minimum_soc": 24.84210526315801,
+    "electric_heater_wh": 17640.00000000015,
+    "recovered_heat_wh": 0.0,
+    "rejected_heat_wh": 12100.000000000062,
+    "electrical_heating_avoided_wh": 0.0,
+    "thermal_safety_violation_minutes": 0,
+    "max_electrical_residual_wh": 6.110667527536862e-13,
+    "max_thermal_residual_wh": 5.639932965095795e-14,
+    "critical_availability": 100.0,
+    "flexible_tasks_completed": 1,
+    "task_minutes_completed": 292
+  },
+  "full": {
+    "critical_minutes": 720,
+    "minimum_soc": 35.578947368421005,
+    "electric_heater_wh": 6791.839186236786,
+    "recovered_heat_wh": 10055.666666666742,
+    "rejected_heat_wh": 269.80392156862723,
+    "electrical_heating_avoided_wh": 10848.160813763316,
+    "thermal_safety_violation_minutes": 0,
+    "max_electrical_residual_wh": 6.679101716144942e-13,
+    "max_thermal_residual_wh": 6.217248937900877e-14,
+    "critical_availability": 100.0,
+    "flexible_tasks_completed": 2,
+    "task_minutes_completed": 330
+  }
+}
