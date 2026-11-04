@@ -3,6 +3,8 @@
 SELENE simulates electrical power scheduling and waste-heat recovery for a lunar habitat.
 Python simulation + local HTTP API + interactive dashboard. No third-party packages, external fonts, chart CDNs, hardware or internet required.
 
+![SELENE dashboard](assets/screenshot.png)
+
 ## Start on Windows
 
 1. Install Python 3.10 or newer if it is not already installed.
