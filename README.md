@@ -1,4 +1,4 @@
-# SELENE — LunaGrid + HEATBANK
+# SELENE 
 
 SELENE simulates electrical power scheduling and waste-heat recovery for a lunar habitat.
 Python simulation + local HTTP API + interactive dashboard. No third-party packages, external fonts, chart CDNs, hardware or internet required.
