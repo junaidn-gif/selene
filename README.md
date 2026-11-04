@@ -1,13 +1,13 @@
 # SELENE — LunaGrid + HEATBANK
 
-A basic offline prototype for the SEDS sustainability and energy management hackathon.
+SELENE is my personal project exploring how a lunar habitat could manage electrical power and reuse equipment waste heat.
 Python simulation + local HTTP API + interactive dashboard. No third-party packages, external fonts, chart CDNs, hardware or internet required.
 
 ## Start on Windows
 
 1. Install Python 3.10 or newer if it is not already installed.
 2. Clone or download this repository, then open the `selene` folder.
-3. Open the `selene` folder and double-click `START_WINDOWS.bat`.
+3. Double-click `START_WINDOWS.bat`.
 4. Your browser opens at http://127.0.0.1:8765. Keep the terminal window open.
 5. Press **Run mission**, or **Step +1 min**. Use **Run full comparison** for all three complete runs.
 
@@ -17,7 +17,7 @@ Stop the program with Ctrl+C in its terminal.
 
 macOS / Linux: `python3 main.py` (or `sh start.sh`).
 
-## What to demonstrate
+## Explore the simulation
 
 1. Start Full SELENE. Explain the separate power scheduler and thermal router.
 2. Watch science heat flow to the habitat, battery and storage.
@@ -90,4 +90,4 @@ The server binds only to localhost, keeps one in-memory mission shared by tabs, 
 - `benchmark_results.json`: generated default benchmark results.
 - `START_WINDOWS.bat`, `start.sh`: launchers.
 
-A compact single simulation module was chosen for reliability and readability in this basic prototype. Controller branches are explicit and can later be split into separate modules or replaced with an optimization solver.
+I kept the simulation in a single module for readability. Controller branches are explicit and can later be split into separate modules or replaced with an optimization solver.
